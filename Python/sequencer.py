@@ -8,19 +8,13 @@
 #
 ###############################################################################
 
-import subprocess
-import os
 import numpy
 import time
 
 import argparse
 import csv
 
-from pythonosc import dispatcher
 from pythonosc import udp_client
-from pythonosc import osc_message_builder as omb
-
-import synth_osc_player as sop
 
 
 ###############################################################################

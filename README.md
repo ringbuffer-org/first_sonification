@@ -1,9 +1,14 @@
 
 
-# Clone Repository
+# 1: Clone Repository
 
-    $ git clone https://github.com/anwaldt/py2faust_synth.git
+    $ git clone https://github.com/anwaldt/first_sonification.git
     $ cd python_sequencing
+
+
+# 2: Launch Pd Synth
+
+
 
 # Python Control
 
@@ -17,10 +22,7 @@
     $ pip3 install numpy
     $ pip3 install python-osc
 
-
 ## Run Script
 
-- after making sure that 'synth_control.py' is executable, run:
-
- $ ./synth_control.py
+    $ python3 sequencer.py ../../fnc150.csv --col 1 --interval 100
 
